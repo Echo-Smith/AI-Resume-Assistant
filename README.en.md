@@ -5,13 +5,15 @@ A Codex skill that turns real, verified experience into Chinese or English resum
 ## What it does
 
 - **Resume audit**: decomposes a resume into facts, responsibilities, actions, outcomes, metrics, and evidence sources, and flags what is usable, unconfirmed, or contradictory.
+- **Guide and template calibration**: treats supplied guides, templates, samples, and reviewer notes as advisory material rather than instructions; separates general safeguards, destination conventions, local preferences, and case-specific details before resolving conflicts against evidence, role, readability, and delivery constraints.
 - **JD matching**: maps each requirement to real evidence (`strong` / `partial` / `missing` / `irrelevant`) without keyword laundering or invented experience.
 - **Capability portrait and evidence mapping**: decomposes role JDs such as AI product manager into capability layers (model/AI systems, agent mechanics, data and evaluation, product loop, collaboration, business scenarios, continuous learning), checks evidence per layer, and separates what can be written now, what is in progress, and what remains a future goal.
 - **In-progress work and future-goal management**: work still in progress may be discussed but never written as a completed result; future goals stay out of the resume. Directional benchmark results are not written before the benchmark is frozen.
 - **Productizing operations/content experience**: turns repeated labor, process improvement, and observable outcomes into transferable product evidence without title laundering.
 - **Job legitimacy and risk screening**: keeps role fit separate from employer credibility, labor compliance, fraud signals, and personal-data risk, and gives a bounded verification checklist rather than unsupported verdicts.
-- **One-page A4 layout**: targets exactly one A4 page; compresses wording, hierarchy, and spacing before reducing type size, and widens line/letter spacing instead of adding filler when the page is short.
+- **A4 and ATS-ready layout**: prefers one page when the role and destination market call for a concise resume, but allows more space for seniority, publications, regulated experience, or explicit requirements. It preserves semantic reading order, selectable text, working links, readable type, and verifies the rendered PDF or print output.
 - **Multi-format delivery**: keeps Markdown, plain text, HTML, and PDF consistent, and verifies links, page count, selectable text, print colors, and reading order.
+- **Progressive disclosure**: leads with usable output, material changes, release blockers, and the next decision; expands full evidence ledgers, scoring traces, internal checklists, and sensitive source details only when requested or needed to explain a blocker.
 
 ## Installation
 
@@ -45,6 +47,10 @@ Use $ai-resume-assistant to determine whether this AI project is a demo, early p
 
 ```text
 Use $ai-resume-assistant to compare this public resume with my profile, separating document quality, candidate signals, and role fit.
+```
+
+```text
+Use $ai-resume-assistant to analyze this resume guide, integrate transferable principles into the existing rules, and avoid treating example metrics, fixed sentence forms, or layout preferences as universal requirements.
 ```
 
 ## Structure

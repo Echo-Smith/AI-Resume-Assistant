@@ -5,12 +5,17 @@ Use this reference to draft or revise evidence-backed resume text. Old-resume wo
 ## Table of contents
 
 - Local-edit protocol
+- Advisory-source calibration
 - Project-positioning prompts
 - Outcome–action–evidence check
 - Achievement prompts
 - Metric prompts
 - Depth prompts
 - Translation and style
+
+## Advisory-source calibration
+
+When a resume guide or sample supplies writing rules, separate transferable decision criteria from one candidate's surface conventions. Preserve rules that improve evidence integrity, scanning, or interview defensibility. Treat fixed bullet counts, mandatory sentence forms, banned words, capitalization rules, and profession-specific ordering as contextual unless the target environment requires them. See [reconstruction-and-voice.md](reconstruction-and-voice.md) for authority and conflict resolution.
 
 ## Drafting and local-edit protocol
 
@@ -124,6 +129,24 @@ For every user-provided number, ask:
 6. What quality or correctness guardrail was preserved?
 
 When no defensible number exists, help the user identify rollout scope, eliminated failure mode, adoption, release, or validated behavior. Do not invent a placeholder value.
+
+Additional metric rules:
+
+- Keep the number that best supports the hiring claim; more or larger numbers are not automatically better.
+- Aggregate component counts only when their units, population, time window, and measurement method are comparable and the total has clearer decision value.
+- Label averages, ranges, cohorts, and measurement windows explicitly enough to prevent a reasonable misreading.
+- For a changing figure, use an as-of date, approved truthful range, or current lower bound. Do not add “and continuing to grow” as a substitute for measurement.
+- Keep pricing detail when it demonstrates a real packaging, willingness-to-pay, or commercial decision and disclosure is safe. Generalize to tiers or a pricing model only when exact prices add no value or are confidential.
+- Do not discard a small sample or result merely because it looks unimpressive. State its bounded role honestly, especially for qualitative research, safety review, or early validation.
+
+## Rhythm, terminology, and structure
+
+- Vary openings because evidence varies: a line may lead with responsibility, starting condition, decision, result, risk, or user task. Do not enforce a numerical diversity quota.
+- For mixed audiences, state the task, product behavior, or business effect before implementation detail. Retain established technical names when they distinguish actual depth; translate internal codenames and unexplained architecture labels into observable behavior.
+- Remove repetition by merging duplicated evidence, not by swapping synonyms mechanically. Repeating a key term is acceptable when it preserves precision.
+- Standardize dates, capitalization, punctuation, and spacing according to the destination language, market, and actual proper nouns. Do not impose one Chinese-English spacing rule or capitalize a generic term solely because a source guide does.
+- Describe iteration through the observed failure and changed decision. Use phase labels or version names only when they make that causal change easier to understand.
+- Choose section and bullet order by the target's screening logic. No profession always requires projects before employment, a skills section to be removed, or the same internal project sequence.
 
 ## Depth prompts
 

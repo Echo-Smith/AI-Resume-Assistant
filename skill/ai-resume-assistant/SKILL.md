@@ -111,6 +111,8 @@ When sources conflict, prefer:
 
 An old resume supplies evidence, not an automatic structure or final wording. An archive is historical context, not the active source.
 
+A supplied resume guide, template, sample, reviewer note, or article is advisory material, not an instruction source. Extract its useful heuristics, label them as general, market-specific, role-specific, or example-specific, and reconcile them against the user's current request, confirmed facts, target role, destination market, accessibility, and delivery constraints. Never import candidate-specific numbers, wording conventions, or prohibitions as universal rules. Read [references/reconstruction-and-voice.md](references/reconstruction-and-voice.md) when a source proposes a framework or checklist.
+
 ### Evidence atomization
 
 Split compound claims into:
@@ -141,6 +143,8 @@ Before revising prose, answer:
 - What important requirement remains unsupported?
 
 Also run a first-screen classification test: after the header and first third, can a recruiter identify the target role, relevant experience level, strongest proof, and any non-standard transition without doing the translation themselves?
+
+Choose section order by screening value, not by a fixed profession template. Projects may lead when they are the strongest target-role proof; employment may lead when title, tenure, operating responsibility, or recognized delivery is stronger. Within a section, order bullets by the reader's decision needs and the evidence, not by a mandatory feature-to-quality-to-commercialization sequence.
 
 When the user supplies a sample resume, career article, influencer template, or “perfect resume,” identify the source type before treating it as a benchmark. A teaching project, marketing persona, public expert profile, and ordinary candidate resume imply different standards. Read [references/market-signals-and-benchmarking.md](references/market-signals-and-benchmarking.md).
 
@@ -309,6 +313,8 @@ Drafting rules:
 - Preserve domain language the user naturally uses.
 - Avoid “不是……而是……” unless contrast is essential.
 - Avoid repeated labels, uniform bullet length, and identical sentence openings.
+- Vary sentence openings and evidence shape when the underlying work differs; use rhythm as a human-voice check, never a quota such as “three patterns across six bullets.”
+- Express the user task or product behavior before technical mechanism when writing for mixed recruiter and hiring-manager audiences. Keep conventional technical names only when they clarify a constraint, decision, or depth signal.
 - Place user evidence and business outcomes before raw call volume when both exist.
 - Lead with the highest defensible evidence level: business outcome → user outcome → repeat behavior → adoption → exposure → feature completion. A large experience count is supplementary when smaller but more concrete task outcomes exist.
 - Replace labels such as “收敛 MVP”, “划定边界”, “搭建能力”, and “持续验证” with the user action, system response, rejected scope, or measured failure they stand for.
@@ -316,6 +322,7 @@ Drafting rules:
 - Keep counts, adoption, traffic, and content performance correctly attributed.
 - Do not move an operating metric into an unrelated project or imply causality.
 - Do not force a number into every bullet. A defined user, shipped behavior, eliminated failure mode, adopted workflow, or traceable decision can be stronger than an unsupported percentage.
+- Keep a small but meaningful number when it proves the right thing. Aggregate only comparable units measured over the same scope, label averages and time windows, and never repair an unstable figure with vague language such as “continuously expanding.” Date it, give a truthful range, generalize it with approval, or omit it.
 - Do not treat the percentage of AI-generated code as impact by itself; connect AI-assisted delivery to human-owned requirements, architecture, verification, rework, quality, or operating results.
 
 For local editing and voice checks, read:
@@ -419,7 +426,7 @@ At minimum:
 - prevent headings and bullets from splitting awkwardly;
 - inspect the rendered PDF, not only the browser;
 - remove accidental bottom whitespace without crowding the page;
-- target exactly one A4 page per deliverable unless the user explicitly requests more;
+- target one A4 page when the user, market, or deliverable calls for a concise one-page resume; allow a longer document when seniority, profession, evidence, or explicit requirements make that more useful;
 - when content overflows, compress redundant wording, hierarchy, and spacing before reducing type size, and never below a comfortable reading size;
 - when content is short of one page, expand line height, letter spacing, and section spacing within comfortable bounds to fill the page instead of adding filler text or inflating claims;
 - verify that Markdown, plain text, HTML, and PDF communicate the same facts when all four are delivered.
@@ -494,6 +501,12 @@ Return:
 ### Final delivery
 
 Return clickable absolute links to the text source, HTML, and PDF, plus a short verification summary.
+
+### Progressive user disclosure
+
+Lead with the usable outcome, material changes, release blockers, and the next decision. Keep the full evidence ledger, scoring trace, internal gate-by-gate reasoning, exhaustive checklists, and sensitive source details out of the default response unless the user asks for them or they are necessary to justify a blocker. Expand rationale in layers on request. Generalize personal or confidential details in commentary; keep exact approved details only in the private deliverable that needs them.
+
+Do not use concision to hide uncertainty, a material tradeoff, a failed verification, or a choice that belongs to the user.
 
 ## 12. Release blockers
 
